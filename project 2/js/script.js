@@ -4,7 +4,6 @@ startButton.addEventListener("click", ()=>
 {
    startButton.style.display = "none"; 
    start()
-   burst()
 })
   
   function start() {

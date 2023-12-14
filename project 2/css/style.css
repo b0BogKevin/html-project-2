@@ -103,15 +103,15 @@ button:active{
 }
 #content{
     backdrop-filter: blur(3px);
-    width: max-content;
-    height: max-content;
+    width: fit-content;
+    height: fit-content;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.2);
     border: #2c1e16 2px solid;
-    top: 500px;
+    top: 50%;
     position: relative;
     transform: translateY(-50%);
     
@@ -134,24 +134,5 @@ button:active{
     #item{
         width: 17vw;
         height:12vw;
-    }
-}
-@media only screen and (max-width: 700px) 
-{
-    #grid{
-        grid-template:  "a b"
-                        "c d"
-                        "e f"
-                        "g h"
-                        "i j"
-                        "k l"
-                        "m n"
-                        "o p"
-                        "u r"
-                        "s t";
-    }
-    #item{
-        width:35vw;
-        height:27vw;
     }
 }
